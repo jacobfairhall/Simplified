@@ -416,7 +416,7 @@ footer {
 }
 
 .footer__logo--img {
-    width: 70px;
+    width: 124Spx;
     height: 70px;
 }
 
@@ -447,38 +447,36 @@ footer {
 
 }
 
-/* TABLETS, LARGE SMARTPHONES */
-
-@media(max-width: 768px) {
+/* Small phones, tablets, large smartphones */
+@media (max-width: 768px) {
     nav {
-        height: 68px;
+      height: 68px;
     }
-
+  
     h1 {
-        font-size: 28px;
+      font-size: 28px;
     }
-
+  
     .about-me__info--para {
-        font-size: 18px;
+      font-size: 18px;
     }
-
+  
     .language {
-        width: calc(100% / 2);
+      width: calc(100% / 3);
     }
-
+  
     .project__description--para {
-        font-size: 14px;
+      font-size: 14px;
     }
-
+  
     .project__description {
-        left: 30px;
-        padding-right: 30px;
+      left: 30px;
+      padding-right: 30px;
     }
-
-}
-
-/* SMALL PHONES */
-@media (max-width: 480px) {
+  }
+  
+  /* SMALL PHONES */
+  @media (max-width: 480px) {
     .nav__link:not(:last-child) {
       display: none;
     }
@@ -513,4 +511,3 @@ footer {
       margin: 12px 0;
     }
   }
-
